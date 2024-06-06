@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+.navbar-image{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    transition: transform 0.3s ease;
+}
+
+.navbar-image:hover {
+  transform: scale(1.2); /* Increase the size of the image on hover */
+}
+
+.navbar-icons{
+    /* margin: 20px; */
+    
+    height: 15px;
+    transition: transform 0.3s ease;
+    
+}
+
+.navbar-icons:hover {
+  transform: scale(1.2); /* Increase the size of the icons on hover */
+}
+
+.heart{
+  color: red;
+}
+
+.cart{
+  color: #8d5524;
+}
+
+.eye{
+  color: #183b56;
+}
+
+.nav{
+  margin-right: 30px;
+}
+
+.cofee-about{
+    height:400px ;
+    width: 550px;
+}
+
+.about{
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+    color: white;
+}
+
+/* CSS for hover effect on about section */
+.about:hover {
+  color: #007bff; /* Change text color on hover */
+}
+
+/* CSS for hover effect on about section */
+.banner-section:hover .about {
+  color: #007bff; /* Change text color on hover */
+}
+
+.banner-section:hover .cofee-about {
+  transform: scale(1.1); /* Scale up the image on hover */
+}
+
+
+
+
+.special-coffee-heading {
+    font-family: 'Georgia', serif;
+    font-size: 2em;
+    color: #0ae976;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #8d5524;
+    padding-bottom: 10px;
+  }
+
+  .banner-section{
+    background-image: url(color.jpg);
+    background-size: cover;
+    
+    
+  }
+  .para{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 18px;
+  
+  }
+
+  .mini{
+    margin-top: 80px;
+    color: white;
+        font-weight: bold;
+        padding: 40px;
+  }
+
+  .button{
+     
+    color: white;
+        background-color: #d0b200;
+        width: 130px;
+        height: 45px;
+        border-width: 0;
+        border-radius: 8px;
+        margin-right: 20px;
+        padding: 0.5em 1em; 
+        cursor: pointer;
+        margin: 20px;
+        margin-bottom: 50px;
+        transition: background-color 0.3s;
+       
+        
+      
+      }
+
+      .button:hover {
+        background-color:#b39d00;
+      }
+
+
+      .background{
+        background-image: url(5.avif);
+       width: 100vw;
+       background-size: cover;
+       
+        height: 90vh;
+      }
+
+
+
+      .home-para{
+        color:white;
+    font-family: "Caveat";
+    font-size: 36px;
+    width: 600px;
+    padding: 70px;
+        
+ }
+
+ .menu-heading{
+  text-align: center;
+  color: #183b56;
+  font-weight: bold;
+  padding: 30px;
+ }
+  .menu-para{
+    color: #183b56;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+  }
+
+
+
+  .explore-menu-section {
+    background-color: white;
+  }
+
+  .explore-para{
+    font-family: serif;
+    font-size: 25px;
+  }
+
+
+
+
+
+  .menu-item-image {
+    border-radius: 16px;
+    height: 100px;
+  }
+  .menu-card-title {
+    color:black;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+  }
+  .menu-item-link {
+    color: #d0b200;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .menu-item-card {
+    border-radius: 16px;
+  }
+
+/* CSS for menu section cards hover effect */
+.menu-item-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item-card:hover .menu-card-title {
+  color: #d0b200; /* Change color on hover */
+}
+
+.menu-item-card:hover .rate {
+  color: #d0b200; /* Change color on hover */
+}
+
+
+
+  .rate{
+    color:black;
+  }
+
+
+
+  .product-image{
+    height: 400px;
+    width: 300px;
+    border: solid;
+  }
+
+  .product-heading{
+    text-align: center;
+    font-family: roboto;
+  }
+
+  .product-star{
+    text-align: center;
+  }
+
+
+
+  .icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 80px;
+    border: 2px solid #000;
+    border-radius: 10px;
+   margin: 15px;
+}
+/* 
+.product-line{
+  width: 100px;
+    height: 200px;
+    border: 2px solid #000;
+    border-radius: 10px;
+} */
+
+.explore-heading{
+  text-align: center;
+}
+
+.explore-para{
+  text-align: center;
+}
+
+.img{
+  border-radius: 90px;
+  width: 100px;
+  height: 100px;
+
+}
+
+/* CSS for hover effect on explore-products section cards */
+.card:hover {
+  transform: translateY(-5px); /* Move the card up by 5px on hover */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Add a box shadow on hover */
+}
+
+/* Optional: Change text color or any other style on hover */
+.card:hover .product-heading {
+  color: #d0b200; /* Change heading color on hover */
+}
+
+.card:hover .product-image {
+  opacity: 0.8; /* Reduce image opacity on hover */
+}
+
+.card:hover .star svg {
+  fill: #d0b200; /* Change star color on hover */
+}
+
+
+
+.review-heading{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.review-para{
+  font-family: serif;
+  font-size: 25px;
+}
+.p-para{
+  font-family: math;
+  font-size: 18px;
+}
+
+.google{
+  width: 450px;
+  height: 350px;
+}
+
+.contact-heading{
+  text-align: center;
+  color: #183b56;
+}
+
+/* CSS for hover effect on contact section */
+.contact:hover {
+  background-color: #f0f0f0; /* Change background color on hover */
+}
+
+.contact-heading:hover {
+  color: #007bff; /* Change heading color on hover */
+}
+
+.google:hover {
+  transform: scale(1.1); /* Scale up the map image on hover */
+}
+
+.form-group input[type="text"]:hover,
+.form-group input[type="email"]:hover,
+.form-group input[type="tel"]:hover {
+  border-color: #007bff; /* Change input border color on hover */
+}
+
+.btn-primary:hover {
+  background-color: #007bff; /* Change button background color on hover */
+  border-color: #007bff; /* Change button border color on hover */
+}
+
+
+
+
+.follow-us-section {
+  background-color: white;
+}
+.follow-us-section-heading {
+  text-align: center;
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.follow-us-icon-container {
+  background-color: #faf7e8;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin: 15px;
+  padding-top: 22px;
+  padding-bottom: 14px;
+  padding-right: 16px;
+  padding-left: 22px;
+}
+/* CSS for hover effect on follow us section */
+.follow-us-icon-container:hover .icon {
+  color: #007bff; /* Change icon color on hover */
+}
+
+.icon {
+  color: #d0b200;
+  font-size: 35px;
+}
+
+
+.footer-section {
+  background-color: #0d2436;
+}
+.footer-section-mail-id {
+  color: white;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.footer-section-address {
+  color: white;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+
+.food-munch-logo{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.star{
+  color: #d0b200;
+}
